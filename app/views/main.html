@@ -1,0 +1,14 @@
+<div class="row">
+  <div class="col-md-7">
+    <leaflet defaults="defaults" markers="map.markers" center="map.center" height="480px" width="640px"></leaflet>
+    </div>
+  <div class="col-md-5">
+    <p ng-show="secondsUntilUpdate && secondsUntilUpdate > 0">Will update in {{secondsUntilUpdate}} seconds</p>
+    <p ng-show="secondsUntilUpdate == 0">Updating...</p>
+    <input type="radio" ng-model="routeID" value="501"/> 501 Queen<br>
+    <input type="radio" ng-model="routeID" value="504"/> 504 King<br>
+    <input type="radio" ng-model="routeID" value="72"/> 72 Pape<br>
+    <input type="radio" ng-model="routeID" value="29"/> 29 Dufferin<br>
+    <button type="button" class="btn btn-primary" ng-click="changeRoute()">Update</button>
+  </div>
+</div>
