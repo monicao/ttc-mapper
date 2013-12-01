@@ -1,0 +1,20 @@
+{
+  "name": "ttcMapper",
+  "version": "0.0.0",
+  "dependencies": {
+    "jquery": "~2.0.3",
+    "angular": "~1.2.3",
+    "angular-ui-router": "~0.2.0",
+    "angularjs-geolocation": "0.1.0",
+    "json3": "~3.2.4",
+    "angular-leaflet": "0.6.1",
+    "leaflet-dist": "0.7",
+    "lodash":  "2.4.0",
+    "bootstrap": "~3.0.1",
+    "es5-shim": "~2.0.8"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.2.3",
+    "angular-scenario": "~1.2.3"
+  }
+}
